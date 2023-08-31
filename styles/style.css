@@ -133,7 +133,9 @@ fieldset {
 
 .search-form__pseudo-checkbox {
   align-self: center;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
@@ -145,8 +147,6 @@ fieldset {
 
 .search-form__label:active .search-form__pseudo-checkbox::before {
   content: '';
-  position: absolute;
-  margin: 1px;
   width: 15px;
   height: 15px;
   background: #fff;
